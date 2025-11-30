@@ -1,4 +1,5 @@
-@import './common';
+
+@import './common.scss';
 
 .container{
   padding: 50px 0;
@@ -20,7 +21,8 @@
     }
   } 
   .logo{
-    max-width: 300px;margin: 0 auto;padding: 0 20px;
+    max-width: 300px;margin: 0 auto;padding: 15px 20px;
+    outline: 1px solid red;
     img{
       width: 100%;
     }
