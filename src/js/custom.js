@@ -6,3 +6,6 @@ document.addEventListener("DOMContentLoaded",()=>{
   const spanEl = document.querySelector('.logo span')
   spanEl.textContent=new Date().getFullYear();
 })
+import hero1 from '../images/hero1.png';
+
+document.querySelector('.hero:nth-child(1) .image').style.backgroundImage = `url(${hero1})`;
